@@ -1,0 +1,89 @@
+{
+	name: Candle
+	description: "Fires a thin flame. Deals high damage over small area.\n[stat]Family:[][orange] Blaze[]\n[stat]Tags:[][lightgray] Continuous; Shortcomer;[]"
+	
+	outlineColor: 8C4AAB
+	health: 400
+	reload: 5
+	shootSound: flame
+	shoot: {
+		shots: 1
+	}
+	recoil: 0
+	rotateSpeed: 3
+	
+	targetGround: true
+	targetAir: false
+	
+	requirements: [
+		copper/30
+		lead/15
+		silicon/10
+		pyratite/6
+	]
+	size: 1
+	range: 60
+	inaccuracy: 0
+	ammoTypes: {
+		coal: {
+			damage: 30
+			pierceArmor: true
+			
+			status: burning
+			statusDuration: 60
+			makeFire: true
+			
+			pierce: true
+			pierceBuilding: true
+			ammoMultiplier: 3
+			
+			speed: 15
+			lifetime: 4
+			
+			despawnEffect: none
+			lightRadius: 0
+			
+			width: 0
+			height: 0
+			
+			collidesGround: true
+			collidesAir: false
+			
+			hitEffect: {
+				particles: 5
+				lifetime: 10
+				length: 15
+				cone: 360
+				line: true
+				lenFrom: 4
+				lenTo: 0
+				colorFrom: ffdd55
+				colorTo: db401c
+				strokeFrom: 1
+				strokeTo: 0
+			}
+			smokeEffect: {
+				interp: circleOut
+				particles: 14
+				length: 75
+				lifetime: 25
+				cone: 1
+				colorFrom: ffdd55
+				colorTo: db401c
+				sizeFrom: 2.5
+				sizeTo: 0
+			}
+		}
+	}
+	ammoPerShot: 1
+	
+	category: turret
+	research: core-shard
+	consumes: {}
+	conductivePower: false
+	
+	# drawer: {
+		type: DrawTurret
+		basePrefix: "tier3-classic-"
+	}
+}

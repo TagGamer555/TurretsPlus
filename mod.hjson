@@ -1,0 +1,15 @@
+{
+	name: "turplus"
+	
+	subtitle: "1 Turret(s)"
+	version: "1 Turret(s)"
+	
+	displayName: "Turrets Plus"
+	description: "Adds more turrets, and only more turrets. Hope you enjoy!"
+	author: "TagGamer555"
+	
+	minGameVersion: "136"
+	
+	main: "turplus.turplus-Mod"
+	java: false #does not include .class files (which are Java class files)
+}
