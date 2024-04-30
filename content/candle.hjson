@@ -10,7 +10,7 @@
 		shots: 1
 	}
 	recoil: 0
-	rotateSpeed: 3
+	rotateSpeed: 5
 	
 	targetGround: true
 	targetAir: false
