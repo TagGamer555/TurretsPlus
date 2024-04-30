@@ -83,7 +83,7 @@
 	conductivePower: false
 	
 	# drawer: {
-		type: DrawTurret
-		basePrefix: "tier3-classic-"
-	}
+	# 	type: DrawTurret
+	# 	basePrefix: "tier3-classic-"
+	# }
 }
