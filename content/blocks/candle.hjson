@@ -2,7 +2,7 @@
 	name: Candle
 	description: "Fires a thin flame. Deals high damage over small area.\n[stat]Family:[][orange] Blaze[]\n[stat]Tags:[][lightgray] Continuous; Shortcomer;[]"
 	
-	outlineColor: 8C4AAB
+	# outlineColor: 8C4AAB
 	health: 400
 	reload: 5
 	shootSound: flame

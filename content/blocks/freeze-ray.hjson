@@ -2,7 +2,7 @@
 	name: Freeze Ray
 	description: "Fires a piercing freezing ray by using titanium as ammo.\n[stat]Family:[][cyan] Freeze[]\n[stat]Tags:[][lightgray] Piercer; Farseerer;[]"
 	
-	outlineColor: 8C4AAB
+	# outlineColor: 8C4AAB
 	health: 500
 	reload: 100
 	shootSound: blaster
